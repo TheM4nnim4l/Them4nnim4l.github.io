@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00000F;
+    background-color: #D2691E;
+    background-image: linear-gradient(rgb(207, 167, 167), chocolate);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: darkred;
+    margin: 0;
+    text-align: center;
+    
+}
+
+nav {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: #D2691E;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    font-size: 2em;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color: crimson;
+}
+
+nav a:visited {
+    color: red;
+}
+
+nav a:hover {
+    color: darkviolet;
+}
+
+main {
+
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: darkred;
+}
+
+p {
+    background-color: red
+}
+
+ol {
+    background-color: darkred;
+}
+
+li {
+    font-size: large;
+    font-weight: bold;
+}
+
+footer {
+    font-size: 75%;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    clear: both;
+}
+
+section {
+    float: left;
+    width: 40%;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+table {
+    border: 3px solid #000000;
+    border-collapse: collapse;
+    align-items: center;
+}
+
+td, th { 
+    padding: 0.5em;
+    border: 3px solid #000000;
+
+}
+
+td {
+    text-align: center;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 150px;
+    padding-right: 10px;
+}
+
+input, textarea {
+    display: block;
+}
+
+input[type="submit"] {
+    margin-left: 160px;
+}
